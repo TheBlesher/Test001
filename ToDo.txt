@@ -1,0 +1,14 @@
+Modify content based on revisions
+	
+Layout: Add 3D models
+
+
+Connect to a PLC: add pictures
+
+
+Popup menu
+	VC Checklist
+
+Glossary
+
+Add more stuff into PLC References

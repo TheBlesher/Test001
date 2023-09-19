@@ -1,0 +1,572 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+   <title>Debugg Issues</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Plugin css -->
+  <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/plugins/slick.css" rel="stylesheet">
+  <link href="assets/css/plugins/ion.rangeSlider.min.css" rel="stylesheet">
+  <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+  <link href="assets/fonts/flaticon/flaticon.css" rel="stylesheet">
+  <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+  <!-- Main css -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body class="btn-style-1 btn-rounded sidebar-style-2">
+  <!--header Start-->
+  <div id="section-header">
+    <aside class="sigma_aside sigma_aside-desktop">
+      <div class="sidebar">
+       
+
+    <!--Floating sidebar content-->
+
+      </div>
+    </aside>
+    
+    <div class="sigma_aside-overlay aside-trigger-right">
+    </div>
+    <div class="sigma_aside-overlay aside-trigger">
+    </div>
+    <header class="sigma_header style-3 can-sticky">
+      <div class="sigma_header-middle">
+        <div class="navbar">
+          <div class="sigma_logo-wrapper">
+            <a class="sigma_logo" href="index.html">
+              <img src="assets/img/logo.png" alt="logo">
+            </a>
+          </div>
+          
+            <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+      
+ <!--NAV bar-->
+          <ul class="navbar-nav" id="Top">
+            <li class="menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            
+<li class="menu-item menu-item-has-children">
+              <a href="intern-tutorial.html">Intern Tutorial</a>
+              <ul class="sub-menu">
+              
+                <li class="menu-item">
+                  <a href="hardware-prints.html">Hardware prints</a>
+                </li>
+                
+                <li class="menu-item">
+                  <a href="layout.html">Layout</a>
+                </li>
+                <li class="menu-item">
+                  <a href="winmod-getstated.html">Start a WinMOD file</a>
+                </li>
+                <li class="menu-item">
+                  <a href="generate-l5k.html">Generate L5K Sim files</a>
+                </li>
+                <li class="menu-item">
+                  <a href="connect-plc.html">Connect to a PLC</a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-sim.html">De-Sim a L5K File</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="common-issues.html">Common PLC/WinMOD issues</a>
+                  <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="common-issues.html#parts">Part Present</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="common-issues.html#clamps">Clamp</a>
+                    </li>
+                     <li class="menu-item">
+                    <a href="common-issues.html#robots">Robot</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="edit-winmod-macro.html">Edit a WinMOD Macro</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a>CN150B01 Pictures</a>
+                  <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="pictures-devices.html">Devices</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="pictures-cell.html">Cell Pictures</a>
+                    </li>
+                     <li class="menu-item">
+                    <a href="pictures-more.html">More Pictures</a>
+                    </li>
+                  </ul>
+                </li>
+                </li>
+
+                <li class="menu-item">
+                  <a href="videos.html">Example Videos</a>
+                </li>
+                <li class="menu-item">
+                  <a href="3dlayout.html" target="_blank">Layout 3D</a>
+                </li>  
+                  <li class="menu-item">
+                  <a href="glossary.html" target="_blank">Glossary</a>
+                </li> 
+                
+              </ul>
+            </li>
+           
+           <li class="menu-item menu-item-has-children">
+              <a href="softwares.html">Softwares</a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-has-children">
+                  <a>WinMOD</a>
+                  <ul class="sub-menu">
+                  
+                    <li class="menu-item">
+                    <a href="winmod-getstated.html">Start a WinMOD file</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                    <a href="common-issues.html">Common PLC/WinMOD issues</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                    <a href="edit-winmod-macro.html">Edit a WinMOD Macro</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="winmod-helper.html">WinMOD Helper</a>
+                    </li>
+                  </ul>
+                </li>
+                    <li class="menu-item">
+                    <a>Process Simulate</a>
+                    </li>
+                    <li class="menu-item">
+                    <a>Emulate 3D</a>
+                    </li>
+              </ul>
+            </li>
+            
+            <li class="menu-item menu-item-has-children">
+              <a href="plc.html">PLC</a>
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="plc-references.html">References</a>
+                </li>
+                <li class="menu-item">
+                  <a href="plc-fixes.html">Fixes</a>
+                </li>
+                <li class="menu-item">
+                  <a href="connect-plc.html">Connect to a PLC</a>
+                </li>
+                <li class="menu-item">
+                  <a href="generate-l5k.html">Generate L5K Sim files</a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-sim.html">De-Sim a L5K File</a>
+                </li>
+                <li class="menu-item">
+                  <a href="common-issues.html">Common PLC/WinMOD issues</a>
+                </li>
+                <li class="menu-item">
+                  <a href="gm-hmi.html">Download a GM's HMI</a>
+                </li>
+              </ul>
+            </li>
+            
+            <li class="menu-item menu-item-has-children">
+              <a href="utilities.html">Utilities</a>
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="sim-tools.html">SimTools</a>
+                </li>
+                <li class="menu-item">
+                  <a href="note-tool.html">VCNoteTool</a>
+                </li>
+                <li class="menu-item">
+                  <a href="paths.html">K Drive Paths</a>
+                </li>
+                <li class="menu-item">
+                  <a href="winmod-helper.html">WinMOD Helper</a>
+                </li>
+                <li class="menu-item">
+                  <a href="checklist-help.html">VC Checklist Help</a>
+                </li>
+              </ul>
+            </li>
+            
+          </ul>
+        <!--NAV bar END-->   
+          
+          <div class="sigma_header-controls style-2">
+            <ul class="sigma_header-controls-inner">
+              <li class="search-trigger header-controls-item d-none d-sm-block">
+              </li>
+
+              <li class="aside-toggle aside-trigger-right desktop-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+              <li class="aside-toggle aside-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--header End-->
+  </div>
+  
+  
+  <!--subheader Start-->
+  <div id="section-subheader">
+    <div class="sigma_subheader style-10">
+      <div class="container">
+        <div class="sigma_subheader-inner">
+          <h2>Common PLC/WinMOD issues</h2>
+        </div>
+      </div>
+    </div>
+    <!--subheader End-->
+  </div>
+  
+  <!--services Start-->
+  <div id="section-services">
+    <div class="section section-padding sigma_service-sec">
+      <div class="container">
+      
+      
+        <!--Page Content-->
+      
+      
+        <h5>In the automotive industry most PLC logic files are made in Rockwell’s Software, Studio 5000.
+        <br>
+        </h5>
+        <br>
+        <img src="assets\img\issues\01.png" alt="post" class="gallery-img50">
+        <br>
+        <img src="assets\img\issues\02.png" alt="post" class="gallery-img75">
+        <br>
+        <h5>The programming language is known as Ladder Diagram or ladder logic, when reading it, we analyze it from top to bottom.
+        <br>
+        </h5>
+        <img src="assets\img\issues\03.png" alt="post" class="gallery-img75">
+        <h5>In WinMOD we create all the physical I/O devices that send and receive data from and to the PLC. In other words, if there is a device the PLC needs to communicate with, we will create it on WinMOD.
+        <br>On the PLC side we will find these devices at the bottom of the Controller Organizer, and on WinMOD those are the elements that we need to add from our components library.
+        </h5>
+        <br>
+        <img src="assets\img\issues\04.png" alt="post" class="gallery-img50">
+        <br>
+        <h5>•	Controller Organizer
+        <br>IMPORTANT, it allows to access everything that happens in the Cell. Every folder and branch can be accessed from this panel.
+        </h5>
+        <br>
+        <img src="assets\img\issues\05.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>•	Tags
+        <br>A tag is a name you assign to an address of a device/PLC. There are two general scopes for tags, global and local tags. Global refers to tags that can be accessible from every task and routine in the PLC, they can be found in “Controller Tags”.
+        </h5>
+        <br>
+        <img src="assets\img\issues\06.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>“Enter Name Filter…” 
+        <br>Gives the ability to search for any Global Tag
+        </h5>
+        <br>
+        <img src="assets\img\issues\07.png" alt="post" class="gallery-img75">
+        <br>
+        <h5>Local tags refer to tags that are only available in one task and its routines. Under every routine we find Parameters and Local Tags, this takes us to that station’s local tags.
+        </h5>
+        <br>
+        <img src="assets\img\issues\08.png" alt="post" class="gallery-img50">
+        <br>
+        <h5>•	“Tasks” folder
+        <br>This folder gives us access to every task and its routines. In GM standard every station, robot and HMI will have its own task, inside each one, we can find all the connections and processes that take place in that specific fixture or item.
+        </h5>
+        <br>
+        <img src="assets\img\issues\09.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>Something similar as in WinMOD when we open the Project Window (F4).
+        </h5>
+        <br>
+        <img src="assets\img\issues\10.png" alt="post" class="gallery-img50">
+        <br>
+        <h5>•	SafetyTask
+        <br>Safety tasks are more important than normal ones, that’s why they are separated and will execute every set amount of time regardless of a normal task in progress.
+        </h5>
+        <br>
+        <img src="assets\img\issues\11.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>•	Accessing a Station “CN 160”
+        <br>If we want to work in a specific Station, we need to go to the “Tasks” folder and click on the station name. This will open a long list with all the items, sequences, and actions, which take place in it. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\12.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>In here we find all the logic for that station, most of it is standard and most of the time will look the same.
+        </h5>
+        <br>
+        <img src="assets\img\issues\13.png" alt="post" class="gallery-img50">
+        <br>
+        <h5>The main difference should come into the station’s sequence.
+        </h5>
+        <br>
+        <hr>
+        <h4 class="primary-color" id="parts">Part Presents
+        </h4>
+        <h5>•	The branches that we see under “S000_Sequence” are the flow that takes place in the Cell. This would be the sequence that we see in the HMI, when we work in the “Scroll List”  
+        </h5>
+        <img src="assets\img\issues\14.png" alt="post" class="gallery-img25">
+        <br>
+        <img src="assets\img\issues\15.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	The part present logic is found in “S030_RearCompSpiderSubASMPres” as this branch is located right after the Drop of CN150R04, which helps us to interpret that once the Robot makes the drop the Part Presents will be activate on the Station. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\17.png" alt="post" class="gallery-img50">
+        <br>
+        <h5>Fundamental Instructions working with the Logic.
+        <br>•	OTE ---> Output Energize, it executes an action, however, it only takes place when all the previous conditions are true. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\18.png" alt="post" class="gallery-img10">
+        <br>
+        <h5>•	XIO ---> Examine if Open, this examines if the contact is OPENED. It is the opposite to the XIC.
+        </h5>
+        <br>
+        <img src="assets\img\issues\19.png" alt="post" class="gallery-img10">
+        <br>
+        <h5>•	XIC ---> Examine if Closed, this examines if the contact is CLOSED. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\20.png" alt="post" class="gallery-img10">
+        <br>
+        <h5>•	Looking at the Hardwire Prints, as well as in the WinMOD file, we see that this station has 3-part presents. These are connected to Block 01 “CN160BK01”. Each one connected to a different Input. 
+        <br>PP1 ---> .I_02 <br>       PP2 ---> .I_03 <br>       PP3 ---> .I_04
+        </h5>
+        <br>
+        <img src="assets\img\issues\21.png" alt="post" class="gallery-img50">
+        <br>
+        <h5>•	In the logic, we can see the rung where the mapping of the Part Presents inputs to the device takes place. For example, BK01.ID02 and PPX01.Sts, if the connections are made successfully on WinMOD, once the SIM is active “running” the Input (XIC) will be green (on), for the Status to take place (energize) as well. This is helpful to know because this way you can tell is a connection is wrong on WinMOD or if a tag is misplaced on the PLC. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\22.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	This is a good example to see the difference between local and global tags, the grey tag “CN160BK01.I.D02” is a global tag, this means it can be accessed from anywhere, not only in this specific station, while BK01.I.D02 is a local tag that is aliasing to “CN160BK01.I.D02”. This means that BK01.I.D02 if used inside CN160 will point to CN160BK01.I.D02, but if we use it in CN150 it will point to CN150BK01.I.D02. Aliasing means that it will have a “name” locally, but it will be called different globally. Making it so the same name can be used in different stations, because they will share the same name locally but will be aliased to a different name globally.
+        </h5>
+        <br>
+        <img src="assets\img\issues\23.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	On rung 3 of the PP logic, when the condition of Communication OK” is met, we get three possible paths. 
+        <br><span class="tab">1.	When all three (PP1, PP2 AND PP3) status are ON and the station’s style is 12, the “Part Present” will take place as it will be energized. 
+        <br>2.	When PP1 and PP2 status are ON, but PP3 status is NOT ON and the station’s style is 52, the “Part Present” will take place. 
+        <br>3.	Lastly, when all three (PP1, PP2 AND PP3) status are NOT ON, the “Part Not Present” will take place. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\24.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Parts can also be simulated in tryout mode, to do this we use a part present memory. 
+        <br>•	This rung shows us that when the Station is in try out mode “Mode.Tryout” (the station will run without parts), Load Position “LoadPosn” (the station is ready to receive a part), robot R04 it’s in drop 1 “CN150R04.Seg[30]” and also at End of Segment “EndOfSeg” and the Part Not Present “NotPresSwitches” is on (meaning the station has no parts). The Part Present Memory “PresMemory” will be latched (meaning that the output will be maintained) if every previous condition was met. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\25.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Then, this memory will be unlatched in two scenarios, when we are not in Tryout or when we are in tryout, and the robot that picks the part has already picked it. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\26.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	As you just saw, we are activating “real” and “fake” part presents, on rung 6 we basically activate the Partpresent.Pres (which is the tag the PLC will use to know if it has a part on that station), based on the Tryout bit, if Tryout is activated (meaning we will run with no parts), then it will use the part present memory (the fake parts), and if the Tryout bit is not on (meaning we will run with real parts), then it will use the Partpresent.PresSwitches (the one mapped directly to the part presents connected on the I/O blocks). And the bottom branch checks both if the real part is not present and the fake part memory is not present, the that means the part is not present. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\27.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	These three rungs show the process of a robot loading parts. Rung 7 is used to reset the loading of a part every time the simulation is reseted.
+        <br>•	Rung 8: This rung shows us that when the Station is in Load Position “LoadPosn”, the robot R04 is at drop1 “CN150R04.Seg[30]” and at End of Segment “EndOfSeg” and the Part is Present “PresSwitches”. The Load Action Complete “Load.Comp” will be latched. 
+        <br>Another variation, instead of the Robot meeting the condition of the Drop and End Of Segment, is if it meets the Clear conditions “Clear.O” (meaning is at home or it has no part). The Load Action Complete “Load.Comp” will be latched as well. 
+        <br>•	Rung 9: Lastly, when all the Resets “ResetProcComp” and the Part Not Present “NotPres” conditions are met, the Load Complete will be unlatched. 
+        </h5>
+        <br>
+        <hr>
+        <h4 class="primary-color" id="clamps">Clamps
+        </h4>
+        <h5>•	The routine describes what will the action do, in this case “S060_CloseClamp” means the clamp will be closed once the routine is completed, this branch is located right after the Part Check Clear of Robot R04, which helps us to interpret that once the Robot is clear the clamps start to work on the Station. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\28.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>•	Looking at the Hardwire Prints, as well as in the WinMOD file. We see that this station has 2 Clamps and 2 pin clamps. We are interested in the clamps; these are connected to Block 01 “CN160BK01”. Each one connected to a different Input. 
+        <br><span class="tab">Clamp_1 ---> .I_10        Clamp_1 ---> .I_11     
+        <br>Clamp_1 ---> .I_12        Clamp_1 ---> .I_13
+        </h5>
+        <br>
+        <img src="assets\img\issues\29.png" alt="post" class="gallery-img25">
+        <br>
+        <h5>•	In the logic, we can see the rung where the mapping of the Clamp takes place. For example, BK01.I.D11 and C02AL.PX2. If the connections are made successfully on WinMOD, once the SIM is active “running” the Input (XIC) needs to be on (green), for the output C02AL.PX2 to take place (energize) as well. This will mean the clamp is in position. This tag comes directly from WinMOD, by seeing this we can determine if a connection is wrong on WinMOD or if a tag is wrong in the PLC.
+        </h5>
+        <br>
+        <img src="assets\img\issues\30.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Rung 2: The same process as in rung 1 needs to take place, however, this time it is the Clamp from the right side. This is because these two clamps are connected in the same valve.
+        </h5>
+        <br>
+        <img src="assets\img\issues\31.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Rung 3: If left and right Clamp 1 “C02AL.PX2 and C02AR.PX2” are in position, and Clamp 1 is NOT open “ClampOpen.Out”, then the OTE will be energized, and the action of Clamp Closed will take place “ClampClose.Comp”. Meaning the clamp has fully closed.
+        </h5>
+        <br>
+        <img src="assets\img\issues\32.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Rung 4: When the Fast Stop is not activated “StopModes.Active.FastStop”, the Station has all Parts Present “Sts.AllParts” and all the process completes are not ON “MainCycle.ProcComp”. The clamp will get the condition to be able to run in Auto mode.
+        </h5>
+        <br>
+        <img src="assets\img\issues\33.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	To see where the Main Cycle comes from, we cross-reference it. Allowing us to see what process is taking place on the other side. When the cross-reference tab is open, press OTE, and this takes us to a new rung.
+        </h5>
+        <br>
+        <img src="assets\img\issues\34.png" alt="post" class="gallery-img100">
+        <br>
+        <br>
+        <img src="assets\img\issues\maincycle_proccomp.gif" alt="post" class="gallery-img75">
+        <br>
+        <h5>•	Main Cycle Rung 2: This shows us that for the output of ”All Completes Are On” to take place, robots CN160R01, R02 and R03, which are welders. Need to be done welding and clear, so they meet their condition “.ProcComp”.
+        </h5>
+        <br>
+        <img src="assets\img\issues\35.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Rung 5 shows us the clear conditions for this action, this means when the clamp will be clear of every other motion that could result in a collision. As you can see, it will be clear once every robot the station interacts with is at home or doesn’t carry a part.
+        </h5>
+        <br>
+        <img src="assets\img\issues\36.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Rung 6 is basically telling us that the clamp will be allowed to have output power once the air it works on is ON and all the minor safeties are ok.
+        </h5>
+        <br>
+        <img src="assets\img\issues\37.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Rung 7: This rung gives us two options, to run the process in Auto or Manual. From the top line, we interpret that once the Station is in cycle “InCycle”. To see this happening, we must cross reference it to see where it comes from. Besides this we expect the Auto condition of the clamp “.Auto” to be ON, the clamp close in NOT complete (which means the clamp is still opened), the clamp is clear “.Clear” and the Output Power “.OutPwr” is also met, then command output “.Cmd” will take place. 
+        <br>•	Under this line, we see the manual option. If the station is in Manual Mode “Mode.Man”, the Push Button is requested “.PB”, the clamp needs to be clear “.Clear” and the Output Power “.OutPwr” is also on, then command output “.Cmd” will take place. 
+        </h5>
+        <br>
+        <img src="assets\img\issues\38.png" alt="post" class="gallery-img100">
+        <br>
+        <h5>•	Then in rung 8 we can see the “.CMD” is used to activate the “.OUT” condition. It just requires for the clamp not to have its “CMD” and “OUT” conditions ON in the open action. This means we are not trying to open and close the clamp at the same time.
+        <br>•	Rung 9: In this rung we are finally interacting with a physical output, this time if all the conditions were met and we can get the “ClampClose.Out” to be on, the output will energize sending a signal to the Pneumatic Manifold “PM1.O.VS14”. In the real world this will power a manifold, in our simulation this signal will make our valve move. If something is not working on your simulation, this right here could lead you to find the problem, maybe a connection is wrong on WinMOD (if you see this output on and nothing moving), or maybe this tag is wrong in the PLC and it is powering something else.
+        </h5>
+        <br>
+        <img src="assets\img\issues\39.png" alt="post" class="gallery-img100">
+        <br>
+        <br>
+        <hr>
+        <h4 class="primary-color" id="robots">Tracing back common robot faults.
+        </h4>
+        <h5>Part presents and clamps are some of the most common faults you might get while working on a simulation, now that you know how they work the other thing that causes a lot of issues are robots. 
+        <br>Robots have their own task where they have all the logic to make them work in a general way, but still each station the robot works in will have robot logic to be able to “utilize it”, this is to initialize the robot, make it pick and drop, or to make it apply seal, weld, or do any other process depending on the robot type. We will focus on the most common issues found during virtual commissioning.
+        <br><span class="tab">•	The robot stopped moving and you have no idea why. 
+        <br><span class="tab">o	The first thing you need to look at is the Motion Enable bit (field “1”), this bit should be ON if all the conditions on the PLC are met for the robot to be able to move and is a good starting point if you have no idea why the robot is not moving.
+        </h5>
+        <br>
+        <img src="assets\img\issues\40.png" alt="post" class="gallery-img25">
+        <br>
+        <img src="assets\img\issues\motion_enable.gif" alt="post" class="gallery-img100">
+        <br>
+        <h5>The first thing you need to do is look for the station this robot works at, then look for the V100 Robot Common routines and open the one for the robot you are investigating. Look at the right side of the screen while scrolling (where the OTEs are located) and look for the Motion Enable bit. From there just cross reference whatever is not ON to determine the cause.
+        <br>As you can see in that routine we can find almost all the things related with that robot and station CN160, from the initialization of the robot, how we set the style to the robot after it gets initiated, if it is in a valid segment, if it has motion, if it is clear and also the decision codes, this last part is really important because decision codes cause also a lot of problems, so have in mind where the decision codes are being send to the robot.
+        <br><span class="tab">o	Field “2” in the robot macro shows the decision code we are receiving from the PLC, in this example we are receiving DC 0, in Acptd codes it will display the accepted decision codes, so make sure you have the ones expected from the PLC and make sure the PLC is sending the right ones.
+        <br>o	Field “5” shows the current robot style and field “4” shows that the robot is at a RTC (request to continue) point, this means its at End of Cycle and waiting from instructions to continue moving forward.
+        <br>o	Finally, another issue you might have is the robot is not moving and there is no apparent way to tell what is happening, you might have a style and even motion, but there is still no motion. This might be because the robot is waiting on further instructions, to know if this is the case you can look into “O.PathSegContOK” (field “3”, if it is on then this is not the problem, but if it is not on it might be worth looking at it on the PLC).
+        </h5>
+        <br>
+        <img src="assets\img\issues\ok_to_continue.gif" alt="post" class="gallery-img100">
+        <br>
+        <h5>We know we are looking for a direct output from the PLC to the robot. Go to the robot main task and inside look for the MapOutputs routine, look at the right side while scrolling down and look for an “O” (notice the difference between a 0 and a O, the zero will be used most likely in FLL functions while the O will be used to map the outputs to the robot). Right click it and monitor the tag (the “O”), expand the parent tag “O” and look for the child tag “O.PathSegContOK”, cross reference it and look for what the cause might be. It might be one or it might be several causes, whatever it is, it’s a good starting point to find what is causing the issue.
+        <br>
+        </h5>
+       
+
+
+      </div>
+    </div>
+    <!--services End-->
+  </div>
+  
+
+          <!--to-top Start-->
+     <table class="footer_table">
+  <tr>
+    <td align="right"><a href="de-sim.html" class="sigma_btn">Previous</a></td>
+    <td align="center"><a href="#Top" class="sigma_btn">Go Top</a></td>
+    <td align="left"><a href="edit-winmod-macro.html" class="sigma_btn">Next</a></td>
+  </tr>
+</table>
+          <!--to-top End-->
+
+
+  <!--footer Start-->
+  <div id="section-footer">
+    <footer class="sigma_footer sigma_footer-sec">
+      <div class="container">
+        <div class="sigma_footer-middle text-center">
+          <div class="sigma_footer-logo">
+            <img src="assets/img/logo.png" alt="logo">
+          </div>
+                <ul class="sigma_footer-links">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="intern-tutorial.html">Intern Tutorial</a>
+                </li>
+                <li>
+                  <a href="softwares.html">Softwares</a>
+                </li>
+                <li>
+                  <a href="plc.html">PLC</a>
+                </li>
+                <li>
+                  <a href="utilities.html">Utilities</a>
+                </li>
+              </ul>
+
+
+        </div>
+      </div>
+    </footer>
+    <!--footer End-->
+  </div>
+
+  <!-- Javascript -->
+  <script src="assets/js/plugins/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/plugins/popper.min.js"></script>
+  <script src="assets/js/plugins/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/jquery.instagramFeed.min.js"></script>
+  <script src="assets/js/plugins/slick.min.js"></script>
+  <script src="assets/js/plugins/imagesloaded.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+  <script src="assets/js/plugins/jquery.inview.min.js"></script>
+  <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/plugins/jquery.validate.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/functions/mf_form.js"></script>
+</body>
+
+</html>

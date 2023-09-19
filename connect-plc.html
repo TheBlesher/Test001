@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+   <title>Connect to a PLC</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Plugin css -->
+  <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/plugins/slick.css" rel="stylesheet">
+  <link href="assets/css/plugins/ion.rangeSlider.min.css" rel="stylesheet">
+  <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+  <link href="assets/fonts/flaticon/flaticon.css" rel="stylesheet">
+  <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+  <!-- Main css -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+
+<body class="btn-style-1 btn-rounded sidebar-style-2">
+  <!--header Start-->
+  <div id="section-header">
+    <aside class="sigma_aside sigma_aside-desktop">
+      <div class="sidebar">
+       
+
+    <!--Floating sidebar content-->
+
+      </div>
+    </aside>
+    
+    <div class="sigma_aside-overlay aside-trigger-right">
+    </div>
+    <div class="sigma_aside-overlay aside-trigger">
+    </div>
+    <header class="sigma_header style-3 can-sticky">
+      <div class="sigma_header-middle">
+        <div class="navbar">
+          <div class="sigma_logo-wrapper">
+            <a class="sigma_logo" href="index.html">
+              <img src="assets/img/logo.png" alt="logo">
+            </a>
+          </div>
+          
+            <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+      
+      
+ <!--NAV bar-->
+          <ul class="navbar-nav" id="Top">
+            <li class="menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            
+<li class="menu-item menu-item-has-children">
+              <a href="intern-tutorial.html">Intern Tutorial</a>
+              <ul class="sub-menu">
+              
+                <li class="menu-item">
+                  <a href="hardware-prints.html">Hardware prints</a>
+                </li>
+                
+                <li class="menu-item">
+                  <a href="layout.html">Layout</a>
+                </li>
+                <li class="menu-item">
+                  <a href="winmod-getstated.html">Start a WinMOD file</a>
+                </li>
+                <li class="menu-item">
+                  <a href="generate-l5k.html">Generate L5K Sim files</a>
+                </li>
+                <li class="menu-item">
+                  <a href="connect-plc.html">Connect to a PLC</a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-sim.html">De-Sim a L5K File</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="common-issues.html">Common PLC/WinMOD issues</a>
+                  <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="common-issues.html#parts">Part Present</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="common-issues.html#clamps">Clamp</a>
+                    </li>
+                     <li class="menu-item">
+                    <a href="common-issues.html#robots">Robot</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="edit-winmod-macro.html">Edit a WinMOD Macro</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a>CN150B01 Pictures</a>
+                  <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="pictures-devices.html">Devices</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="pictures-cell.html">Cell Pictures</a>
+                    </li>
+                     <li class="menu-item">
+                    <a href="pictures-more.html">More Pictures</a>
+                    </li>
+                  </ul>
+                </li>
+                </li>
+
+                <li class="menu-item">
+                  <a href="videos.html">Example Videos</a>
+                </li>
+                <li class="menu-item">
+                  <a href="3dlayout.html" target="_blank">Layout 3D</a>
+                </li>  
+                  <li class="menu-item">
+                  <a href="glossary.html" target="_blank">Glossary</a>
+                </li> 
+                
+              </ul>
+            </li>
+           
+           <li class="menu-item menu-item-has-children">
+              <a href="softwares.html">Softwares</a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-has-children">
+                  <a>WinMOD</a>
+                  <ul class="sub-menu">
+                  
+                    <li class="menu-item">
+                    <a href="winmod-getstated.html">Start a WinMOD file</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                    <a href="common-issues.html">Common PLC/WinMOD issues</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                    <a href="edit-winmod-macro.html">Edit a WinMOD Macro</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="winmod-helper.html">WinMOD Helper</a>
+                    </li>
+                  </ul>
+                </li>
+                    <li class="menu-item">
+                    <a>Process Simulate</a>
+                    </li>
+                    <li class="menu-item">
+                    <a>Emulate 3D</a>
+                    </li>
+              </ul>
+            </li>
+            
+            <li class="menu-item menu-item-has-children">
+              <a href="plc.html">PLC</a>
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="plc-references.html">References</a>
+                </li>
+                <li class="menu-item">
+                  <a href="plc-fixes.html">Fixes</a>
+                </li>
+                <li class="menu-item">
+                  <a href="connect-plc.html">Connect to a PLC</a>
+                </li>
+                <li class="menu-item">
+                  <a href="generate-l5k.html">Generate L5K Sim files</a>
+                </li>
+                <li class="menu-item">
+                  <a href="de-sim.html">De-Sim a L5K File</a>
+                </li>
+                <li class="menu-item">
+                  <a href="common-issues.html">Common PLC/WinMOD issues</a>
+                </li>
+                <li class="menu-item">
+                  <a href="gm-hmi.html">Download a GM's HMI</a>
+                </li>
+              </ul>
+            </li>
+            
+            <li class="menu-item menu-item-has-children">
+              <a href="utilities.html">Utilities</a>
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="sim-tools.html">SimTools</a>
+                </li>
+                <li class="menu-item">
+                  <a href="note-tool.html">VCNoteTool</a>
+                </li>
+                <li class="menu-item">
+                  <a href="paths.html">K Drive Paths</a>
+                </li>
+                <li class="menu-item">
+                  <a href="winmod-helper.html">WinMOD Helper</a>
+                </li>
+                <li class="menu-item">
+                  <a href="checklist-help.html">VC Checklist Help</a>
+                </li>
+              </ul>
+            </li>
+            
+          </ul>
+        <!--NAV bar END-->   
+          
+          
+          <div class="sigma_header-controls style-2">
+            <ul class="sigma_header-controls-inner">
+              <li class="search-trigger header-controls-item d-none d-sm-block">
+              </li>
+
+              <li class="aside-toggle aside-trigger-right desktop-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+              <li class="aside-toggle aside-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--header End-->
+  </div>
+  
+  
+  <!--subheader Start-->
+  <div id="section-subheader">
+    <div class="sigma_subheader style-10">
+      <div class="container">
+        <div class="sigma_subheader-inner">
+          <h1>Connect to a PLC</h1>
+        </div>
+      </div>
+    </div>
+    <!--subheader End-->
+  </div>
+  
+  <!--services Start-->
+  <div id="section-services">
+    <div class="section section-padding sigma_service-sec">
+      <div class="container">
+      
+      
+        <!--Page Content-->
+      
+      <h5>•Once the PLC is connected setup the IP address
+      <br>•Connect to a PLC
+      <br><span class="tab">o You may need to create a new connection between your PC and VM first
+      <h6><span class="tab">>Edit > Virtual Network Preferences > Change Settings > Add Network > Bridged to your Ethernet adapter on the Host.
+      <br> >VM > Settings > Select the right Network Adapter > Custom and select your newly created Network.
+      </h6>
+      </h5>
+      <h5><span class="tab">o First connect your PC to the PLC
+      <br>o Add your PC's ethernet adapter and VM ethernet adapter to the same network as the PLC.
+      <h6><span class="tab">>Go into its settings and configure the IPV4 IP and Subnet mask.
+      <br> >The IP address should be in the same network as the PLC.
+      <p><span class="tab">i.e.	PLC= 120.29.124.131 then for your main PC use 120.29.124.150
+      <br>This way your PC is using slot number 151 on network "120.29.124", as per subnet mask "255.255.255.0 > X.X.X is the network, and the last digit are the devices"
+      <br>Do the same for the VM, use something like 120.29.124.151, make sure this one is not being used by another device.
+      </h6>
+      </h5>
+      <h6><span class="tab"><span class="tab">>In the Subnet mask use the right one depending on the devices being used
+      <p><span class="tab">i.e. 	in this example and most of the time you will use 255.255.255.0 as the subnet mask because it allows up to 253 devices
+      </h6>
+      <h5><span class="tab">o Add the device using RsLinx.
+      <h6><span class="tab">>Add an ethernet/ip device and select the one with the ip address you configured for your PC or VM.
+      <p><span class="tab">In this example I connected mine in the VM to 120.29.124.151
+      </h6>
+      </h5>
+      <h5><span class="tab">o Connect WinMOD to the PLC
+      <h6><span class="tab">>Right click the driver inside WinMOD > go to Target PLC > write down the PLC IP and select the right slot for the PLC > Test connection, it should say ok.
+      <br>>How to know PLC's IP: Look into DCDL or just look at PLC's IP and use it.
+      </h6>
+      </h5>
+      <h5><span class="tab">o Read Tag Types
+      <h6><span class="tab">>If all your tags are named the same as in the PLC after reading the tag types, you should have no issues.
+      <br>>If at reading the tag types, you find any issues check with your PLC guy to make sure the right naming or size of the tags.
+      </h6>
+      </h5>
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+    <!--services End-->
+  </div>
+  
+
+          <!--to-top Start-->
+     <table class="footer_table">
+  <tr>
+    <td align="right"><a href="generate-l5k.html" class="sigma_btn">Previous</a></td>
+    <td align="center"><a href="#Top" class="sigma_btn">Go Top</a></td>
+    <td align="left"><a href="de-sim.html" class="sigma_btn">Next</a></td>
+  </tr>
+</table>
+          <!--to-top End-->
+
+
+  <!--footer Start-->
+  <div id="section-footer">
+    <footer class="sigma_footer sigma_footer-sec">
+      <div class="container">
+        <div class="sigma_footer-middle text-center">
+          <div class="sigma_footer-logo">
+            <img src="assets/img/logo.png" alt="logo">
+          </div>
+                <ul class="sigma_footer-links">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="intern-tutorial.html">Intern Tutorial</a>
+                </li>
+                <li>
+                  <a href="softwares.html">Softwares</a>
+                </li>
+                <li>
+                  <a href="plc.html">PLC</a>
+                </li>
+                <li>
+                  <a href="utilities.html">Utilities</a>
+                </li>
+              </ul>
+
+
+        </div>
+      </div>
+    </footer>
+    <!--footer End-->
+  </div>
+
+  <!-- Javascript -->
+  <script src="assets/js/plugins/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/plugins/popper.min.js"></script>
+  <script src="assets/js/plugins/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/jquery.instagramFeed.min.js"></script>
+  <script src="assets/js/plugins/slick.min.js"></script>
+  <script src="assets/js/plugins/imagesloaded.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+  <script src="assets/js/plugins/jquery.inview.min.js"></script>
+  <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/plugins/jquery.validate.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/functions/mf_form.js"></script>
+</body>
+
+</html>
